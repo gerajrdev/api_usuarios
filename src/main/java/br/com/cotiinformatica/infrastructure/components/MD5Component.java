@@ -1,4 +1,4 @@
-package br.com.cotiinformatica.infrastructure.component;
+package br.com.cotiinformatica.infrastructure.components;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;

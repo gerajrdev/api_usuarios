@@ -5,19 +5,16 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
 
 @Setter
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
 @EqualsAndHashCode
-public class AtualizarDadosResponseDTO {
+public class EmailMessageDTO {
 	
-	private String mensagem;
-	private String id;
-	private String nome;
-	private String email;
-	
+	private String to;
+	private String subject;
+	private String body;
+
 }
